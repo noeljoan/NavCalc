@@ -2,11 +2,13 @@
 
 **V.F.R. Navigation Preparation Calculator** — a Python/Tkinter creation.
 
-NavCalc solves the wind triangle used in VFR flight planning: enter your Magnetic Heading, distance, true airspeed and wind, and it computes drift, compensated heading, ground speed and flight times.
+Calnav solves the wind triangle used in VFR flight planning: enter your magnetic route, distance, true airspeed and wind, and it computes drift, compensated heading, ground speed and flight times.
 
-!\[platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-informational)
-!\[python](https://img.shields.io/badge/python-3.8%2B-blue)
-!\[license](https://img.shields.io/badge/license-Freeware-lightgrey)
+![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-informational)
+![python](https://img.shields.io/badge/python-3.8%2B-blue)
+![license](https://img.shields.io/badge/license-Freeware-lightgrey)
+
+---
 
 \---
 
