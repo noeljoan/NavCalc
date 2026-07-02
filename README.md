@@ -118,6 +118,6 @@ This calculator is only an aid for flight-planning preparation. It is the pilot'
 Freeware
 
 <div align="center">
-Made with 🐍 &nbsp;+&nbsp; ☁️ &nbsp;+&nbsp; ✈️  <BR>
+Made with 🐍  &nbsp;+&nbsp; ✈️  <BR>
 (c) Copyright 2026 - Noel Joan    
 </div>
