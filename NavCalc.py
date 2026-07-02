@@ -145,7 +145,7 @@ class NavCalcApp(tk.Tk):
 
         self.lbl_vt = self._result(frame_results, 0, "Crosswind component (XWC)")
         self.lbl_ve_title, self.lbl_ve = self._result(
-            frame_results, 1, "Effective wind (Ve)", dynamic_title=True
+            frame_results, 1, "Effective wind (EW)", dynamic_title=True
         )
         self.lbl_drift = self._result(frame_results, 2, "Drift angle")
         self.lbl_hdg = self._result(frame_results, 3, "Compensated magnetic heading (CMH)")
@@ -215,7 +215,7 @@ class NavCalcApp(tk.Tk):
         for lbl in (self.lbl_vt, self.lbl_ve, self.lbl_drift, self.lbl_hdg,
                     self.lbl_vs, self.lbl_tsv, self.lbl_tc):
             lbl.config(text="—", fg="black")
-        self.lbl_ve_title.config(text="Effective wind (Ve)")
+        self.lbl_ve_title.config(text="Effective wind (Ew)")
 
     def _read_float(self, var, field_name):
         txt = var.get().strip().replace(",", ".")
