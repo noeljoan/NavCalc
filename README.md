@@ -10,7 +10,6 @@ Calnav solves the wind triangle used in VFR flight planning: enter your magnetic
 
 ---
 
-\---
 
 ## ✈️ Features
 
