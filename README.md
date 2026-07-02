@@ -9,7 +9,7 @@ Calnav solves the wind triangle used in VFR flight planning: enter your magnetic
 ![license](https://img.shields.io/badge/license-Freeware-lightgrey)
 
 ---
-## 🛫 Screenshoot
+## 🛫 Screenshot
 
 ![Dashboard](Screenshot.png)
 
