@@ -92,21 +92,21 @@ Given:
 
 * **MH** — Magnetic Heading (°)
 * **Dist** — distance between points
-* **Vp** — aircraft true airspeed
+* **TAS** — aircraft true airspeed
 * **Wd** — wind direction (where it's coming *from*, °)
-* **Vw** — wind speed
+* **Ws** — wind speed
 
 The app computes:
 
 ```
 α (wind angle)   = Wd − MH, normalized to (−180°, 180°]
-Vt (crosswind)   = Vw · sin(α)
-Ve (eff. wind)   = Vw · cos(α)       →  positive = headwind, negative = tailwind
-drift            = asin(Vt / Vp)
-heading (Fb)     = MH + drift
-Vs (ground speed)= Vp · cos(drift) − Ve
-TSV (no-wind time)   = Dist / Vp · 60 min
-TC (corrected time)  = Dist / Vs · 60 min
+Cw (crosswind)   = Ws · sin(α)
+Ve (eff. wind)   = Ws · cos(α)       →  positive = headwind, negative = tailwind
+drift            = asin(Cw / TAS)
+heading (CMH)     = MH + drift
+GS (ground speed)= TAS · cos(drift) − EW
+TSV (no-wind time)   = Dist / TAS · 60 min
+TC (corrected time)  = Dist / GS · 60 min
 ```
 
 ## ⚠️ Disclaimer
