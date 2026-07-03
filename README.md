@@ -118,6 +118,7 @@ This calculator is only an aid for flight-planning preparation. It is the pilot'
 ## 📄 License
 
 Freeware
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe die [LICENSE](LICENSE)-Datei für Details.
 
 <div align="center">
 Made with 🐍  &nbsp;+&nbsp; ✈️  <BR>
